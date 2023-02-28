@@ -1,0 +1,368 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #077b8a;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Main styles */
+  main {
+    background-color: #a2d5c6;
+    padding: 20px;
+    min-height: calc(100vh - 130px);
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .banner {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      max-width: 100%;
+    }
+  
+    nav ul {
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
+
+/* Navigation styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Navigation link styles */
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Navigation link specific styles */
+  .nav-about a {
+    background-color: #a2d5c6;
+    color: #077b8a;
+    margin-right: 10px;
+  }
+  
+  .nav-collection a {
+    background-color: #077b8a;
+  }
+  
+  .nav-more a {
+    background-color: #d72631;
+  }
+  
+  /* Responsive navigation styles */
+  @media only screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-bottom: 10px;
+    }
+  
+    nav a {
+      padding: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    nav li {
+      margin: 0;
+    }
+  
+    nav a {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  /* Navigation styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Navigation link styles */
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Navigation link specific styles */
+  .nav-about a {
+    background-color: #a2d5c6;
+    color: #077b8a;
+    margin-right: 10px;
+  }
+  
+  .nav-collection a {
+    background-color: #077b8a;
+  }
+  
+  .nav-more a {
+    background-color: #d72631;
+  }
+  
+  /* Responsive navigation styles */
+  @media only screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-bottom: 10px;
+    }
+  
+    nav a {
+      padding: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    nav li {
+      margin: 0;
+    }
+  
+    nav a {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+
+  /* Button container styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    
+    /* Button specific styles */
+    .button-about {
+    background-color: #a2d5c6;
+    color: #077b8a;
+    margin-right: 10px;
+    }
+    
+    .button-collection {
+    background-color: #077b8a;
+    }
+    
+    .button-more {
+    background-color: #d72631;
+    }
+    
+    /* Responsive button styles */
+    @media only screen and (max-width: 768px) {
+    .button-container {
+    flex-direction: column;
+    }
+    
+    .button-about {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    button {
+    font-size: 14px;
+    padding: 8px;
+    }
+    }
+    
+    /* Responsive banner styles */
+    @media only screen and (max-width: 1200px) {
+    .banner {
+    padding: 10px;
+    }
+    
+    nav li {
+    margin: 0 5px;
+    }
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .banner {
+    padding: 20px;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    .banner {
+    padding: 10px;
+    }
+    
+    nav li {
+    margin: 0 5px;
+    }
+    }
+    
+    /* General color styles */
+    h1, button {
+    color: #ffffff;
+    }
+    
+    .button-about {
+    background-color: #a2d5c6;
+    color: #077b8a;
+    margin-right: 10px;
+    }
+    
+    .button-collection {
+    background-color: #077b8a;
+    }
+    
+    .button-more {
+    background-color: #d72631;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .button-container {
+    flex-direction: column;
+    }
+    
+    .button-about {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    button {
+    font-size: 14px;
+    padding: 8px;
+    }
+    }
+    
+    /* Responsive banner styles */
+    @media only screen and (max-width: 1200px) {
+    .banner {
+    padding: 10px;
+    }
+    
+    nav li {
+    margin: 0 5px;
+    }
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .banner {
+    padding: 20px;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    .banner {
+    padding: 10px;
+    }
+    
+    nav li {
+    margin: 0 5px;
+    }
+    }
+    
+    /* General color styles */
+    h1, button {
+    color: #ffffff;
+    }
+    
+    /* Specific color styles */
+    .banner {
+    background-color: #077b8a;
+    }
+    
+    main {
+    background-color: #a2d5c6;
+    }
+    
+    .button-about {
+    background-color: #a2d5c6;
+    color: #077b8a;
+    }
+    
+    .button-collection {
+    background-color: #077b8a;
+    }
+    
+    .button-more {
+    background-color: #d72631;
+    }
