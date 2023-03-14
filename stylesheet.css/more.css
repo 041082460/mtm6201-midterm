@@ -103,7 +103,6 @@ header {
 
 }
 
-
 .social-media{
     display: flex;
     justify-content: center;
@@ -111,3 +110,81 @@ header {
     height:calc(750px - 180px);
 }
 /*END OF THE CODE FOR SOCIAL MEDIA*/
+
+                /*CODE FOR PHONES*/
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #a2d5c6;
+}
+
+/* Logo Going Back Home */
+.logo {
+	margin: auto;
+}
+
+/* Header */
+header {
+	background-color: #077b8a;
+	color: #fff;
+}
+
+/* Banner */
+.banner {
+	display: flex;
+	align-items: center;
+	padding: 1em;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.banner img {
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	width: 120px;
+	height: 150px;
+}
+
+/* Social Media Icons */
+.social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(750px - 180px);
+}
+
+.media img {
+	display: inline-block;
+	width: 120px;
+	height: 150px;
+	padding: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+	/* Logo */
+	.logo {
+		width: 80%;
+	}
+
+	/* Banner */
+	.banner img {
+		width: 80px;
+		height: 100px;
+	}
+
+	/* Social Media Icons */
+	.social-media {
+		height: calc(400px - 180px);
+	}
+
+	.media img {
+		width: 80px;
+		height: 100px;
+		padding: 10px;
+	}
+}
