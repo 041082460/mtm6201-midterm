@@ -1,4 +1,6 @@
 
+@media only screen and (min-width: 1800px), (min-width: 1300px)  {
+/*regular code*/
 		/* CSS for the banner */
 		.banner {
 			background-color: #1c5858;
@@ -12,7 +14,6 @@
 
       /* Global Styles */
 body {
-	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
     background-color: #a2d5c6;
@@ -23,55 +24,6 @@ body {
 }
 /*END OF THE CODE*/
 
-/* ANIMATION FOR THE PHOTOS*/
-
-/* #slideshow {
-    position: relative;
-    width: 100%;
-    height: 500px; /* adjust to your desired height 
-    overflow: hidden;
-  }
-  
-  #slideshow picture {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  #slideshow picture:first-child {
-    display: block;
-    animation: 15s infinite slideshow;
-  }
- 
-  #slideshow picture:nth-child(2) {
-    animation-delay: 5s;
-  }
-  
-  #slideshow picture:nth-child(3) {
-    animation-delay: 10s;
-  }
-  
-  @keyframes slideshow {
-    0% {
-      opacity: 0;
-    }
-    
-    25% {
-      opacity: 1;
-    }
-    
-    75% {
-      opacity: 1;
-    }
-    
-    100% {
-      opacity: 0;
-    }
-  }
-*/
 /*CSS FOR THE ANIMATION*/
 .container {
 	overflow: hidden;
@@ -198,8 +150,154 @@ header {
 	
 		.text{
 			width: 1200px;
-			margin-left: 350px;
+			margin: auto;
+			background-color: #077b8a;
+			border-radius: 25px;	
+		}
+	}
+
+		@media only screen and (max-width: 1200px) {
+			/* Global Styles */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #a2d5c6;
+		}
+		
+		/* Header Styles */
+		header {
+			background-color: #077b8a;
+			color: #fff;
+			width: 100%; 
+		}
+		
+		.banner {
+			display: flex;
+			align-items: center;
+			padding: 1em;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			
+		}
+		
+		.banner img {
+			max-width: 100%;
+			margin: auto;
+			display: block;
+			width: 120px; /* fixed width for desktop */
+			height: 150px;
+		}
+		
+		/* CSS for the banner */
+		.banner {
+			background-color: #1c5858;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		/* CSS for the page content */
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+			padding: 0 20px;
+			text-align: center;
+		}
+		
+		.title {
+			font-size: 48px;
+			font-weight: bold;
+			color: #d72631;
+			margin: 30px 0 20px 0;
+		}
+		
+		.subtitle {
+			font-size: 36px;
+			color: #077b8a;
+			margin-bottom: 40px;
+		}
+		
+		.image {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 40px;
+			border: 5px solid #a2d5c6;
+		}
+		
+		.content {
+			font-size: 24px;
+			line-height: 1.5;
+			color: black;
+			max-width: 800px;
+			text-align: center;
+		}
+		
+		.topic {
+			position: relative;
+			text-align: center; /* center the button horizontally */
+			margin-bottom: 50px;
+			display: inline-block;
+			margin-right: 20px;
+			overflow: hidden;
+			scroll-snap-align: start;
+			scroll-behavior: smooth;
+		}
+		
+		.topic-btn {
+			display: block;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+		
+			padding: 10px 20px;
+			margin: 10px auto 0;
+			cursor: pointer;
+		}
+		
+		.topic-explore {
+			white-space: nowrap;
+			overflow-x: hidden;
+			margin-top: 2.5em;
+			max-width: 1000px;
+		}
+		
+		.topic img {
+			border-radius: 20px;
+			max-width: 100%;
+		}
+		
+		.container {
+			overflow: hidden;
+			display: flex;
+			width: 100%;
+			margin: 0 auto;
+		}
+		
+		@keyframes slide {
+			0% {
+			transform: translate3d(0, 0, 0);
+			}
+			100% {
+			transform: translate3d(-1000px, 0, 0); /* The image width */
+			}
+		}
+		
+		.topic-explore div {
+			min-width: 300px;
+			margin-left: 50px;
+			animation: slide 15s linear infinite;
+		}
+		
+		/* MAISON'S CODE ATTEMPT */
+		.text {
+			max-width: 800px;
+			margin-left: 230px;
 			background-color: #077b8a;
 			border: 5px solid #a2d5c6;
 			border-radius: 25px;	
 		}
+	}

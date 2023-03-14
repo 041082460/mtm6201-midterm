@@ -1,0 +1,45 @@
+
+		/* CSS for the banner */
+		.banner {
+			background-color: #1c5858;
+			
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+      /* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: #a2d5c6;
+}
+/*LOGO GOING BACK HOME*/
+.logo {
+	margin: auto;
+}
+/*END OF THE CODE*/
+
+header {
+	background-color: #077b8a;
+	color: #fff;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	padding: 1em;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.banner img {
+	max-width: 100%;
+	margin:auto;
+	display: block;
+	width: 120px; /* fixed width for desktop */
+	height: 150px; 
+}
