@@ -17,16 +17,9 @@ header {
 	padding: 1em;
 	justify-content: space-between;
 	flex-wrap: wrap;
+  
 }
 
-.banner img {
-	max-width: 100%;
-	margin-right: auto;
-  margin-left: 69px;
-	display: block;
-	width: 120px; /* fixed width for desktop */
-	height: 150px; /* fixed height for desktop */
-}
 
 nav ul {
 	display: flex;
@@ -92,10 +85,15 @@ main {
 .content {
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
+  background-color: #5c3c92;
+  border-radius: 25px;
+ 
 }
 
 h1 {
   font-size: 36px;
+  padding-top: 20px;
 }
 
 p {
@@ -103,6 +101,11 @@ p {
 }
 
 /* responsive code */
+
+iframe{
+ 
+  padding-bottom: 10px;
+}
 
 /* Global Styles */
 body {
@@ -128,7 +131,7 @@ header {
 .banner img {
 	max-width: 100%;
 	margin-right: auto;
-    margin-left: 10px;
+    margin-left: 300px;
 	display: block;
 	width: 120px; /* fixed width for desktop */
 	height: 150px; /* fixed height for desktop */
