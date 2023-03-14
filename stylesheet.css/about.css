@@ -43,3 +43,86 @@ header {
 	width: 120px; /* fixed width for desktop */
 	height: 150px; 
 }
+
+/* CODE FOR THE BODY OF THE MAIN SECTION FOR THE ABOUT PAGE */
+all-things-from-within, .titles, .container, main-description  {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #a2d5c6;
+  }
+.titles, .container{
+	
+	text-align: center;
+}
+  
+  
+  .main-description {
+	width: 100%;
+	background-color:#1c5858; 
+	border-radius: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-top: 50px;
+  }
+  
+  .main-description p {
+	background-color: #077b8a;
+	color: #a2d5c6;
+	padding: 20px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	text-align: center;
+  }
+  
+  .titles h1 {
+	color: #d72631;
+  }
+  
+  .titles h2 {
+	color: #077b8a;
+  }
+
+  .topic img{
+	border-radius: 20px;
+  }
+/* END OF THE CODE FOR THE MAIN SECTION FOR THE ABOUT PAGE */
+
+/* CODE FOR THE 900PX VIEWPORT*/
+@media (max-width: 900px) {
+	/* CSS for viewport width of 900px or less */
+	.banner {
+	  height: 150px;
+	  padding: 10px;
+	  width: 1180px;
+	}
+	.banner img {
+	  max-width: 200px;
+	  text-align: center;
+	  margin: auto;
+	}
+	.titles {
+	  text-align: center;
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+	}
+	.main-description {
+	  background-color: #1c5858;
+	  border-radius: 20px;
+	  padding: 20px;
+	  margin-left: 150px
+	}
+	.main-description p {
+	  color: #a2d5c6;
+	}
+	h1 {
+	  font-size: 32px;
+	  color: #d72631;
+	  margin-bottom: 10px;
+	}
+	h2 {
+	  font-size: 24px;
+	  color: #077b8a;
+	  margin-bottom: 10px;
+	}
+  }
+/* END OF THE CODE */
