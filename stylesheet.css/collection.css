@@ -142,19 +142,32 @@ header {
 			font-size: 18px;
 			line-height: 1.5;
 			color: black;
-			width: 1200px;
+		
 			text-align: center;
 		}
 
 		
 	
 		.text{
-			width: 1200px;
-			margin: auto;
+			width: 100%;
+			background-color:#1c5858; 
+			border-radius: 20px;
+			padding: 20px;
+			box-sizing: border-box;
+			margin-top: 50px;
+			  }
+			  
+		.text p {
 			background-color: #077b8a;
-			border-radius: 25px;	
-		}
+			color: #a2d5c6;
+			padding: 20px;
+			border-radius: 20px;
+			box-sizing: border-box;
+			text-align: center;
+			  }
 	}
+
+	/* SEPARATION OF THE CODES TO NOT GET MESSED UP */
 
 		@media only screen and (max-width: 1200px) {
 			/* Global Styles */

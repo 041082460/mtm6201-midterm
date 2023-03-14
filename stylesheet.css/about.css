@@ -1,4 +1,23 @@
-
+/*CODE FOR THE FADE IN ANIMATION FOR THE MAIN IMAGE*/
+.container .topic-explore .topic img {
+	opacity: 0;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+/*END OF THE CODE FOR THE MAIN IMAGE*/
+		
+		
 		/* CSS for the banner */
 		.banner {
 			background-color: #1c5858;
